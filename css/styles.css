@@ -24,10 +24,13 @@ html {
 
 div.scroll_content {
 	background-color: rgba(1,1,1,0.35);
-	overflow-y: scroll;
+	overflow: auto;
 	width: 250px;
 	height: 100%;
-	margin-bottom: 30px;
+}
+
+div.scroll_content::-webkit-scrollbar { 
+    display: none; 
 }
 
 p.scroll_content {
