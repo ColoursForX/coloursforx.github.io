@@ -1,3 +1,22 @@
 body {
 	background-color: #001121;
+	padding: 0;
+	margin: 0;
+	display: block;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+html {
+	padding: 0;
+}
+
+.color_grad {
+	background: linear-gradient(135deg, #BF145A, #00A5E9);
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
 }
