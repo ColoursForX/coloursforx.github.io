@@ -3,6 +3,7 @@
 	<title>Colours for {x}</title>
 	<link href="css/styles.css" media="all" rel="stylesheet" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+	<link href="css/prism.css" rel="stylesheet" />
 </head>
 <body>
 	<div class="color_grad">
@@ -51,6 +52,17 @@
 
 			<h1 class="scroll_content"> </h1>
 		</div>
+		<div class="code">
+			<div class="code_block">
+				<pre class="code"><code class="language-objectivec">// Testing...
+
+- (void) testSomeMethod:(NSNumber *)a {
+	NSString *x = [[NSUserDefaults standardDefaults] objectForKey:@"HelloWorld"];
+	return x;	
+}</code></pre>
+			</div>
+		</div>
 	</div>
+	<script src="js/prism.js"></script>
 </body>
 </html>
